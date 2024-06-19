@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "4b8b82b57c929d29",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc3cbf58d1953588",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe6c195f21977ace",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-06-19-first.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "17ecbf80b8242251",
+    "type": "split",
+    "children": [
+      {
+        "id": "effee72de8547da0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d62f58e1384b184e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ac7f03e3a73c8416",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9031367d5cdf9cba",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "03bcc4eba6886334",
+    "type": "split",
+    "children": [
+      {
+        "id": "71f2b5acb3296168",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be4938bb90f80846",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2024-06-19-first.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1050b239c4789aad",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/2024-06-19-first.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "504e0cba2400032d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "634348ce0df869d5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/2024-06-19-first.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "fe6c195f21977ace",
+  "lastOpenFiles": [
+    "_images/channels4_profile.jpg",
+    "_images/game_rect_squirrel.62365049.png",
+    "_posts/2024-06-19-first.md",
+    "_images"
+  ]
+}
