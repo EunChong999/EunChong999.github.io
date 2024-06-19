@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dc3cbf58d1953588",
+        "id": "8c98a80404daf13a",
         "type": "tabs",
         "children": [
           {
-            "id": "fe6c195f21977ace",
+            "id": "d477e46fa83f4c92",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,11 +146,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "fe6c195f21977ace",
+  "active": "d62f58e1384b184e",
   "lastOpenFiles": [
-    "_images/game_rect_squirrel.62365049.png",
     "_images/channels4_profile.png",
     "_posts/2024-06-19-first.md",
+    "_images/game_rect_squirrel.62365049.png",
     "_images/channels4_profile 1.png",
     "_images/channels4_profile.jpg",
     "_images"

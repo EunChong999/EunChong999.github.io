@@ -1,6 +1,6 @@
 {
   "attachmentFolderPath": "_images",
   "showUnsupportedFiles": true,
-  "newLinkFormat": "absolute",
-  "alwaysUpdateLinks": true
+  "newLinkFormat": "shortest",
+  "alwaysUpdateLinks": false
 }
