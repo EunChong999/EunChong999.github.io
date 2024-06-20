@@ -111,16 +111,16 @@ analytics:
 
 
 # Site Author
-author:
+author: 
   name             : "EunChong"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "“완벽함은 아무것도 더할 것이 없을 때가 아닌, 아무것도 제거할 것이 남지 않았을 때 달성된다.”"
   location         : "South Korea"
-  email            :
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJlLWWqNVRkwnKwRlqPRvQCtNNBbHCJzgMgLmczdSndgncgVgNptLbthpwqzDTwfDnsVRQV"
+      url: "mailto:eunchonggim999@gmail"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/EunChong999"
@@ -128,24 +128,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://github.com/EunChong999"
 
 
 # Reading Files
@@ -214,7 +199,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: Asia/Seoul
 
 
 # Pagination with jekyll-paginate
@@ -277,16 +264,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression

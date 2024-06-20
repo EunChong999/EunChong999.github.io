@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-19-first.md",
+                "file": "_pages/404.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-19-first.md",
+                "file": "_pages/404.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-19-first.md",
+                "file": "_pages/404.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-19-first.md"
+                "file": "_pages/404.md"
               }
             }
           }
@@ -148,27 +148,32 @@
   },
   "active": "d477e46fa83f4c92",
   "lastOpenFiles": [
-    "_site/assets/images/logo.png",
-    "assets/images/logo.png",
-    "_site/assets/images/channels4_profile.png",
-    "_site/assets/images",
-    "assets/images/channels4_profile.png",
-    "assets/images/channels4_profile.jpg",
-    "assets/images",
-    "Gemfile",
-    "_site/first/index.html",
-    "_site/first",
-    "_site/staticman.yml",
-    "_site/screenshot.png",
-    "_site/screenshot-layouts.png",
-    "_site/minimal-mistakes-jekyll.gemspec",
-    "_site/feed.xml",
-    "_site/robots.txt",
-    "_site/sitemap.xml",
-    "_images/channels4_profile.png",
     "_posts/2024-06-19-first.md",
-    "_images/game_rect_squirrel.62365049.png",
-    "_images/channels4_profile 1.png",
-    "_images/channels4_profile.jpg"
+    "_site/assets/images/404_error.png",
+    "assets/images/404_error.png",
+    "_site/assets/images/404.png",
+    "assets/images/404.png",
+    "_site/assets/images/wallpaperflare.com_wallpaper.png",
+    "assets/images/wallpaperflare.com_wallpaper.png",
+    "_pages/image.png",
+    "_site/_pages/image.png",
+    "_site/_pages",
+    "_site/404.html",
+    "_site/_pages/404.md",
+    "_pages/404.md",
+    "_site/tags/index.html",
+    "_site/tags",
+    "_site/_pages/tag-archive.md",
+    "_pages/tag-archive.md",
+    "_site/graphics/first/index.html",
+    "_site/graphics/first",
+    "_site/graphics",
+    "_site/그래픽스/first/index.html",
+    "_site/그래픽스/first",
+    "_site/그래픽스",
+    "_site/_pages/category-archive.md",
+    "_pages/category-archive.md",
+    "_site/assets/images/logo.png",
+    "assets/images/logo.png"
   ]
 }
