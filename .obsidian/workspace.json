@@ -146,13 +146,25 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d62f58e1384b184e",
+  "active": "d477e46fa83f4c92",
   "lastOpenFiles": [
+    "Gemfile",
+    "_site/first/index.html",
+    "_site/first",
+    "_site/staticman.yml",
+    "_site/screenshot.png",
+    "_site/screenshot-layouts.png",
+    "_site/minimal-mistakes-jekyll.gemspec",
+    "_site/feed.xml",
+    "_site/robots.txt",
+    "_site/sitemap.xml",
+    "_site/assets/js/lunr/lunr.min.js",
+    "_site/assets/js/lunr/lunr.js",
+    "_site/assets/js/lunr/lunr-store.js",
     "_images/channels4_profile.png",
     "_posts/2024-06-19-first.md",
     "_images/game_rect_squirrel.62365049.png",
     "_images/channels4_profile 1.png",
-    "_images/channels4_profile.jpg",
-    "_images"
+    "_images/channels4_profile.jpg"
   ]
 }
