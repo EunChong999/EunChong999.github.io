@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_pages/404.md",
+                "file": "_posts/2024-06-19-first.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_pages/404.md",
+                "file": "_posts/2024-06-19-first.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_pages/404.md",
+                "file": "_posts/2024-06-19-first.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_pages/404.md"
+                "file": "_posts/2024-06-19-first.md"
               }
             }
           }
@@ -148,8 +148,23 @@
   },
   "active": "d477e46fa83f4c92",
   "lastOpenFiles": [
-    "_posts/2024-06-19-first.md",
+    "_site/search/index.html",
+    "_site/search",
+    "_site/_pages/search.md",
+    "_site/_pages",
+    "_pages/search.md",
+    "_pages/404.md",
+    "_site/graphics/first/index.html",
+    "_site/graphics/first",
+    "_site/graphics",
+    "_site/assets/images/logo.png",
     "_site/assets/images/404_error.png",
+    "_site/assets/images",
+    "_site/tags/index.html",
+    "_site/tags",
+    "_site/categories/index.html",
+    "_site/categories",
+    "_posts/2024-06-19-first.md",
     "assets/images/404_error.png",
     "_site/assets/images/404.png",
     "assets/images/404.png",
@@ -157,23 +172,11 @@
     "assets/images/wallpaperflare.com_wallpaper.png",
     "_pages/image.png",
     "_site/_pages/image.png",
-    "_site/_pages",
-    "_site/404.html",
     "_site/_pages/404.md",
-    "_pages/404.md",
-    "_site/tags/index.html",
-    "_site/tags",
     "_site/_pages/tag-archive.md",
     "_pages/tag-archive.md",
-    "_site/graphics/first/index.html",
-    "_site/graphics/first",
-    "_site/graphics",
-    "_site/그래픽스/first/index.html",
-    "_site/그래픽스/first",
-    "_site/그래픽스",
     "_site/_pages/category-archive.md",
     "_pages/category-archive.md",
-    "_site/assets/images/logo.png",
     "assets/images/logo.png"
   ]
 }
