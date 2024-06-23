@@ -113,7 +113,7 @@ analytics:
 # Site Author
 author: 
   name             : "EunChong"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/logo.png"
   bio              : "“완벽함은 아무것도 더할 것이 없을 때가 아닌, 아무것도 제거할 것이 남지 않았을 때 달성된다.”"
   location         : "South Korea"
   email            : 
@@ -301,5 +301,13 @@ defaults:
       share: true
       related: true
       show_date : true
+      toc: true
+      toc_sticky: true
+      toc_label: Contents
+      toc_icon: "fa-regular fa-note-sticky"
+      author_profile: false
+      use_math: true
+      sidebar: 
+          nav: "counts"
 
 date_format : "%Y-%m-%d"
