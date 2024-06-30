@@ -2,5 +2,6 @@
   "attachmentFolderPath": "_images",
   "showUnsupportedFiles": true,
   "newLinkFormat": "shortest",
-  "alwaysUpdateLinks": false
+  "alwaysUpdateLinks": false,
+  "spellcheck": false
 }
