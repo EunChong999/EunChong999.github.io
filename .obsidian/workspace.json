@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-01-CS_Textbook_3.md",
+                "file": "_posts/2024-07-01-CS_Textbook_4.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-01-CS_Textbook_3.md",
+                "file": "_posts/2024-07-01-CS_Textbook_4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-01-CS_Textbook_3.md",
+                "file": "_posts/2024-07-01-CS_Textbook_4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-01-CS_Textbook_3.md"
+                "file": "_posts/2024-07-01-CS_Textbook_4.md"
               }
             }
           }
@@ -148,9 +148,12 @@
   },
   "active": "d477e46fa83f4c92",
   "lastOpenFiles": [
+    "_posts/2024-07-01-CS_Textbook_3.md",
+    "_posts/2024-07-01-CS_Textbook_4.md",
+    "_site/language/CS_Textbook_4/index.html",
+    "_site/language/CS_Textbook_4",
     "_posts/2024-06-29-CS_Textbook_1.md",
     "_posts/2024-07-01-CS_Textbook_2.md",
-    "_posts/2024-07-01-CS_Textbook_3.md",
     "_site/language/CS_Textbook_3/index.html",
     "_site/language/CS_Textbook_3",
     "_site/제목 없는 다이어그램 - draw.io.png",
@@ -162,8 +165,6 @@
     "_site/language/cs_textbook_2/index.html",
     "_site/language/cs_textbook_2",
     "_posts/2024-07-01-cs_textbook_2.md",
-    "_site/language/cs_textbook_1/index.html",
-    "_site/language/cs_textbook_1",
     "_posts/2024-06-29-cs_textbook_1.md",
     "_posts/2024-06-29-first.md",
     "_posts/2024-07-01-first.md",
@@ -191,7 +192,6 @@
     "assets/images/404.png",
     "_site/assets/images/wallpaperflare.com_wallpaper.png",
     "assets/images/wallpaperflare.com_wallpaper.png",
-    "_pages/image.png",
-    "_site/_pages/404.md"
+    "_pages/image.png"
   ]
 }
