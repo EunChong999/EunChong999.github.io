@@ -1,6 +1,5 @@
 {
-  "uploadStrategy": "AUTHENTICATED_IMGUR",
-  "clientId": null,
-  "showRemoteUploadConfirmation": false,
-  "albumToUpload": "OjFgcFt"
+  "uploadStrategy": "ANONYMOUS_IMGUR",
+  "clientId": "c2e59871b79c45d",
+  "showRemoteUploadConfirmation": false
 }
