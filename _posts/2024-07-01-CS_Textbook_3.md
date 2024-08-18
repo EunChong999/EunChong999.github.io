@@ -176,7 +176,7 @@ using System;
 
 class Whitespace
 {
-	static void Main(string[] args)
+	static void Main()
 	{
 		Console.WriteLine("C#");
 		Console.  WriteLine  (  "C#"  )  ;
