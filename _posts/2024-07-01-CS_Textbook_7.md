@@ -156,3 +156,356 @@ A
 1234
 ```
 
+>하지만 반대로 long 형식의 변수를 int 형식의 변수에 저장하려면 다음 샘플 코드처럼 명시적으로 (int)를 붙여 long을 int로 변경해야 한다. 명시적 형 변환은 캐스팅(casting)이라고도 한다.
+
+```cs
+> long number1 = 1234;
+> int number2 = (int)number1; // long 형식의 변수를 int 형식의 변수로 변환해서 저장
+> number2
+1234
+```
+
+>이 경우에는 데이터가 손실되어 엉뚱한 데이터가 저장될 수도 있다. 
+
+- TypeConversionError.cs
+
+```cs
+using System;
+
+class TypeConversionError
+{
+    static void Main()
+    {
+        long l = long.MaxValue; // (1) long 형식 변수의 가장 큰 값을 l 변수에 저장
+        Console.WriteLine($"l의 값 : {l}");
+        int i = (int)l; // (2) l 변수 값을 int 형식으로 변환하여 i 변수에 저장
+        Console.WriteLine($"i의 값 : {i}");
+    }
+}
+```
+
+- 실행 결과
+
+```cs
+l의 값 : 9223372036854775807
+i의 값 : -1
+```
+
+>(int) 표현식을 사용하여 long 형식의 변수를 int 형식의 변수로 변환했다. 다만 int 형식 변수의 크기를 벗어나는 데이터를 저장하면 잘못된 데이터가 저장될 수 있으니 주의해야 한다. 
+
+>마찬가지로 정수 형식을 담을 수 있는 int 형식의 변수 값을 0~255만 담을 수 있는 정수 형식 변수인 byte에 담을 때는 (byte)를 붙여야 한다. 값이 255 이상이라면 잘못된 데이터가 저장되니 주의해야 한다. 다음은 int를 byte로 변환하는 예제이다.
+
+- IntToByte.cs
+
+```cs
+using System;
+
+class IntToByte
+{
+    static void Main()
+    {
+        int x = 255;
+        byte y = (byte)x;
+
+        Console.WriteLine($"{x} -> {y}"); // 보간된 문자열을 사용하여 x와 y의 값 출력
+    }
+}
+```
+
+- 실행 결과
+
+```cs
+255 -> 255
+```
+
+## 2.2 Convert 클래스를 사용하여 형식 바꾸기
+
+>데이터 형식 변환은 괄호 기호 이외에 Convert 클래스의 주요 메서드도 사용할 수 있다.
+
+| 메서드                | 설명                        |
+| ------------------ | ------------------------- |
+| Convert.ToString() | 숫자 데이터 형식을 문자열로 변경        |
+| Convert.ToInt32()  | 숫자 데이터 형식을 정수 형식으로 변경     |
+| Convert.ToDouble() | 숫자 데이터 형식을 실수 형식으로 변경     |
+| Convert.ToChar()   | 입력받은 숫자 또는 문자열 하나를 문자로 변경 |
+
+>예를 들어 숫자 데이터 형식을 문자열로 변경하고 싶다면 Convert.ToString() 메서드를 사용한다. 다음은 정수형 변수 a를 선언한 후 문자열로 변경하여 문자열 변수 b에 대입하는 샘플 코드이다.
+
+```cs
+int a = 1234;
+string b = Convert.ToString(a);
+```
+
+- TypeConversion.cs
+
+```cs
+using System;
+
+class TypeConversion
+{
+    static void Main()
+    {
+        double d = 12.34;
+        int i = 1234;
+
+        d = i; // 큰 그릇에 작은 그릇의 값을 저장
+        Console.WriteLine("암시적 형식 변환 = " + d);
+
+        d = 12.34;
+        i = (int)d; // () 사용 : 정수형 데이터만 저장됨
+        Console.WriteLine("명시적 형식 변환 = " + i);
+
+        string s = "";
+        s = Convert.ToString(d);
+        Console.WriteLine("형식 변환 = " + s);
+    }
+}
+```
+
+- 실행 결과
+
+```cs
+암시적 형식 변환 = 1234
+명시적 형식 변환 = 12
+형식 변환 = 12.34
+```
+
+>Convert.ToInt32()는 int.Parse() 메서드로, Convert.ToDouble()은 double.Parse() 메서드로 대체해서 사용할 수도 있다. 
+
+## 2.3 정수 형식으로 변환하는 세 가지 방법 
+
+>정수 형태의 문자열을 정수 형식으로 변환하는 세 가지 방법은 다음 샘플 코드와 같다.
+
+```cs
+> string strNumber = "1234";
+> int number1 = Convert.ToInt32(strNumber);
+> $"{number1} - {number1.GetType()}"
+"1234 - System.Int32"
+> int number2 = int.Parse(strNumber);
+> $"{number2} - {number2.GetType()}"
+"1234 - System.Int32"
+> int number3 = Int32.Parse(strNumber);
+> $"{number3} - {number3.GetType()}"
+"1234 - System.Int32"
+```
+
+>코드의 GetType() 메서드는 닷넷에서 제공하고, 이를 사용하면 모든 값의 데이터 형식을 알 수 있다.
+
+- GetTypeDemo.cs
+
+```cs
+using System;
+
+class GetTypeDemo
+{
+    static void Main()
+    {
+        int i = 1234;
+        string s = "안녕하세요.";
+        char c = 'A';
+        double d = 3.14;
+        object o = new object(); // 개체 : 개체를 생성하는 구문
+
+        Console.WriteLine(i.GetType());
+        Console.WriteLine(s.GetType());
+        Console.WriteLine(c.GetType());
+        Console.WriteLine(d.GetType());
+        Console.WriteLine(o.GetType());
+    }
+}
+```
+
+- 실행 결과
+
+```cs
+System.Int32
+System.String
+System.Char
+System.Double
+System.Object
+```
+
+>모든 변수에 GetType() 메서드를 요청하면 해당 변수의 닷넷 데이터 형식을 알려준다. object o = new Object(); 형태의 코드는 모든 데이터 형식을 담을 수 있는 그릇을 만드는 작업이다. 즉, 개체를 생성하는 작업이다. 
+
+## 2.4 여러 가지 형식으로 변환하기 
+
+- ReadLineInteger.cs
+
+```cs
+using System;
+
+class ReadLineInteger
+{
+    static void Main()
+    {
+        Console.Write("정수를 입력하세요 : ");
+        string input = Console.ReadLine(); // 문자열 입력
+        int number = Convert.ToInt32(input); // 정수로 형식 변환
+        Console.WriteLine($"{number}-{number.GetType()}");
+    }
+}
+```
+
+- 실행 결과
+
+```cs
+정수를 입력하세요 : 10
+10-System.Int32
+```
+
+>Console.ReadLine() 메서드의 결괏값은 문자열이기에 이를 정수형으로 변경하려면 Convert 클래스의 Int32() 메서드로 묶어 준다. 정수형으로 변경할 수 없는 문자열이 들어올 때는 다음 에러가 발생한다. 
+
+```cs
+> Convert.ToInt32("Hello");
+System.FormatException: 입력 문자열의 형식이 잘못되었습니다.
+```
+
+- ReadLineRealNumber.cs
+
+```cs
+using System;
+
+class ReadLineRealNumber
+{
+    static void Main()
+    {
+        Console.Write("실수를 입력하세요 : ");
+        string input = Console.ReadLine(); // 실수 입력
+        double PI = Convert.ToDouble(input); // 실수로 변환
+        Console.WriteLine(PI);
+    }
+}
+```
+
+- 실행 결과
+
+```cs
+실수를 입력하세요 : 3.14
+3.14
+```
+
+>Console.ReadLine()으로 입력받은 실수 형태의 문자열을 실제 실수 데이터 형식으로 변경할 때는 Convert.ToDouble() 메서드로 묶어 주면 된다. 실수 데이터 형식을 입력받을 때는 ToDouble() 메서드 이외에 ToSingle()과 ToDecimal()도 사용할 수 있다.
+
+>문자열 및 숫자 이외에 문자 하나만 입력받을 수도 있다. 참고로 이 예제는 문자 하나 이상을 입력하면 에러가 발생한다.
+
+- ReadLineCharacter.cs
+
+```cs
+using System;
+
+class ReadLineCharacter
+{
+    static void Main()
+    {
+        Console.Write("문자를 입력하세요 : ");
+        string input  = Console.ReadLine(); // 문자열 입력 
+        char c = Convert.ToChar(input); // 문자로 변환
+        Console.WriteLine(c);
+    }
+}
+```
+
+- 실행 결과 
+
+```cs
+문자를 입력하세요 : 가
+가
+```
+
+# 3 이진수 다루기 
+
+>우리가 평소에 사용하는 숫자 체계는 십진수이다. 컴퓨터에서는 이진수를 사용한다. 그래서 컴퓨터가 숫자를 인식하게 하려면 십진수를 이진수로 변환해야 한다. C#에서는 컴퓨터에서 사용하는 숫자 체계인 이진수를 표현할 때 다음 방식을 사용한다.
+
+```cs
+Convert.ToString(숫자, 2)
+```
+
+>Convert 클래스의 ToString() 메서드는 특정 숫자의 값을 문자열로 변환할 수 있다. 정수 값을 이진수 문자열로 얻고 싶다면 Convert.ToString(정수, 2); 형태로 두 번째 옵션에 이진수를 나타내는 2를 지정한다.
+
+```cs
+> Convert.ToString(10, 2)
+"1010"
+> Convert.ToString(5, 2)
+"101"
+```
+
+>이때 이진수의 결괏값이 0010이라면 앞에 00이 생략된 10까지만 출력된다. 그래서 보통 비트 연산식은 이해하기 편하게 여덟 자리로 잡고, 00000010 형태로 이진수로 출력할 때는 Convert.ToString() 뒤에 한 번 더 PadLeft() 메서드를 사용해서 8칸을 기준으로 이진수 문자열을 출력하고 앞부분은 0으로 채운다. 
+
+```cs
+Convert.ToString(숫자, 2).PadLeft(8, '0');
+```
+
+>예를 들어 다음과 같이 사용할 수 있다.
+
+```cs
+> Convert.ToString(5, 2).PadLeft(4, '0')
+"0101"
+```
+
+- BinaryString.cs
+
+```cs
+using System;
+
+class BinaryString
+{
+    static void Main()
+    {
+        byte x = 10; // 0000 1010
+
+        Console.WriteLine(
+            $"십진수 : {x} -> 이진수 : {Convert.ToString(x, 2).PadLeft(8, '0')}");
+    }
+```
+
+- 실행 결과
+
+```cs
+십진수 : 10 -> 이진수 : 00001010
+```
+
+- Note 
+>십진수를 이진수로 또는 이진수를 십진수로 변환시키는 것을 진법 변환이라고 하는데 C#에서는  Convert 클래스의 ToString()과 ToInt32() 메서드를 사용하여 변환이 가능하다. 
+
+- RadixTransformation.cs
+
+```cs
+using System;
+
+class RadixTransformation
+{
+    static void Main()
+    {
+        Console.WriteLine($"십진수 10을 이진수로 변경 : {Convert.ToString(10, 2)}");
+        Console.WriteLine($"이진수 1010을 십진수로 변경 : {Convert.ToInt32("1010", 2)}");
+    }
+}
+```
+
+- 실행 결과
+
+```cs
+십진수 10을 이진수로 변경 : 1010
+이진수 1010을 십진수로 변경 : 10
+```
+
+## 3.1 이진수 리터럴 
+
+>정수 앞에 숫자 0과 영문자 b를 붙이는 0b 또는 0B 접두사를 붙여 특별한 과정 없이 바로 이진수로 표현할 수 있다. 0b0010처럼 표현하면 이진수 0010이 된다. 
+
+```cs
+> byte b1 = 0b0010; // 이진수 0010 -> 십진수 2
+> byte b2 = 0B1100; // 이진수 1100 -> 십진수 12
+> $"십진수 : {b1}" // 컴퓨터에서는 자동으로 십진수 단위로 처리함
+"십진수 : 2"
+> $"십진수 : {b2}"
+"십진수 : 12"
+```
+
+>프로그램 소스 코드에서는 기본적으로 십진수 단위로 자료가 처리된다. 하지만 컴퓨터가 사용하는 이진수를 표현할 때는 0b와 0B 접두사를 두고 이진수 리터럴로 표현한다. 
+
+## 3.2 언더스코어(\_) 문자로 숫자 구분하기
+
+>현실 세계에서는 100만을 숫자 1.000.000 형태로 세 자리마다 콤마를 넣어 쉽게 구분할 수 있게 한다. 프로그램 소스 코드에서는 콤마 기호를 사용할 수 없는 대신 밑줄 문자인 언더스코어 (\_)를 사용하여 구분할 수 있다.
+
+>이진수, 십진수, 16진수 등을 표현할 때는 언더스코어(\_) 문자를 사용하여 숫자를 구분할 수 있다. 언더스코어(\_) 문자는 1개 이상(또는 여러 개) 사용할 수 있다. 긴 숫자를 표현할 때 숫자 구분자를 두면 가독성이 높아진다.
