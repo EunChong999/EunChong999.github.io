@@ -140,7 +140,7 @@ class SignedInteger
 
 | 데이터 형식 | 비트   | 범위                      | 닷넷 형식         |
 | ------ | ---- | ----------------------- | ------------- |
-| sbyte  | 8비트  | 0~+255                  | System.Byte   |
+| byte   | 8비트  | 0~+255                  | System.Byte   |
 | ushort | 16비트 | 0~+65535                | System.UInt16 |
 | uint   | 32비트 | 0~+4294967295           | System.UInt32 |
 | ulong  | 64비트 | 0~+18446744073709551615 | System.UInt64 |

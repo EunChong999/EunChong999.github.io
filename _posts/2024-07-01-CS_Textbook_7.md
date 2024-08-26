@@ -69,3 +69,90 @@ class ConsoleReadLineDemo
 
 >프로그램을 실행한 후 한 줄을 입력받고 Enter를 누르면 입력한 문자열이 그대로 출력된다. "안녕하세요." 문자열을 입력하면 이 값을 입력받아 Console.WriteLine() 메서드로 다음과 같이 출력한다. 
 
+![](https://i.imgur.com/tZwglwO.jpeg)
+
+- InputName.cs
+
+```cs
+using System;
+
+class InputName
+{
+    static void Main()
+    {
+        Console.Write("이름을 입력하시오 => "); // (1) "이름을 입력하시오" 출력
+        string name = Console.ReadLine(); // (2) 입력받은 문자열을 name 변수에 저장
+        Console.WriteLine("안녕하세요. {0}님.", name); // (3) name 변수 값을 {0}에 출력
+    }
+}
+```
+
+- 실행 결과
+
+```cs
+이름을 입력하시오 => 김은총
+안녕하세요. 김은총님.
+```
+
+>실행한 후 '김은총'을 입력하면 다음과 같이 입력받은 값을 출력한다.
+
+![](https://i.imgur.com/UMr6zb8.png)
+
+>코드에서 (1)은 단순히 화면에 문자열을 출력하는 역할을 한다.
+
+>(2)에서 Console.ReadLine() 메서드는 콘솔에서 Enter를 누를 때까지 문자열을 입력받는 기능을 제공한다. string 형 변수인 name에는 Console.ReadLine() 메서드로 입력한 문자열을 저장한다.
+
+## 1.2 Console.Read() 메서드 사용하기
+
+>Console.Read() 메서드를 사용하면 콘솔에서 문자를 하나만 입력받을 수 있다. 입력 값은 문자에 해당하는 정수로 변환된다. 정수에 해당하는 문자를 출력할 때는 Convert.ToChar() 메서드를 사용한다. 
+
+- ConsoleReadDemo.cs
+
+```cs
+using System;
+
+class ConsoleReadDemo
+{
+    static void Main()
+    {
+        int x = Console.Read(); // (1) 콘솔에서 문자 하나를 입력한 후 [Enter]
+        Console.WriteLine(x); // (2) A를 입력했다면 A에 해당하는 정수 값 65 출력
+        Console.WriteLine(Convert.ToChar(x)); // (3) 65에 해당하는 유니코드 문자 출력
+    }
+}
+```
+
+- 실행 결과
+
+```cs
+A
+65
+A
+```
+
+>실행하면 Console.Read() 메서드를 사용하여 콘솔에서 문자 하나를 입력받는다. 이렇게 입력된 문자는 정수형 변수로 변환된다. 예를 들어 A를 입력하면 아스키코드가 65를 저장한다. 다시 65에 해당하는 문자를 표현하려면 Convert.ToChar() 메서드로 묶어 준다.
+
+# 2 형식 변환
+
+>Console.ReadLine() 메서드를 사용하여 콘솔에서 입력받은 데이터는 문자열이다. 문자열 대신 정수나 실수 데이터를 입력받고 싶다면 입력된 문자열을 원하는 데이터 형식으로 변환할 수 있어야 한다. 
+
+>같은 형식의 데이터끼리는 따로 형식 변환(type conversion)을 하지 않아도 그대로 값이 대입된다.
+
+```cs
+> int number1 = 1234; // 정수 1234를 number1 변수에 저장 
+> int number2 = number1; // number1 값을 다시 number2 변수에 저장
+> number2
+1234
+```
+
+## 2.1 암시적 형 변환과 명시적 형 변환
+
+>형식 변환은 크게 암시적(implicit)(묵시적) 형 변환과 명시적(explicit) 형 변환으로 구분할 수 있다. 암시적 형 변환은 변환 형식이 안전하게 유지되며 데이터가 손실되지 않아 특수한 구문이 필요 없다. 예를 들어 숫자 형식 중 int 형식은 그보다 더 큰 long 형식 변수에 그대로 담을 수 있다.
+
+```cs
+> int number1 = 1234;
+> long number2 = (int)number1; // number1 값을 그보다 큰 long 형식 변수인 number2에 저장
+> number2
+1234
+```
+
