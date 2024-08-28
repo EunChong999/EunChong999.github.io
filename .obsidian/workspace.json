@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-01-CS_Textbook_8.md",
+                "file": "_posts/2024-07-01-CS_Textbook_9.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-01-CS_Textbook_8.md",
+                "file": "_posts/2024-07-01-CS_Textbook_9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-01-CS_Textbook_8.md"
+                "file": "_posts/2024-07-01-CS_Textbook_9.md"
               }
             }
           },
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-01-CS_Textbook_8.md",
+                "file": "_posts/2024-07-01-CS_Textbook_9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,10 +169,15 @@
   },
   "active": "b1bcc01e118e380a",
   "lastOpenFiles": [
-    "_posts/2024-07-01-CS_Textbook_7.md",
     "_posts/2024-07-01-CS_Textbook_8.md",
-    "_posts/2024-07-01-CS_Textbook_4.md",
     "_posts/2024-07-01-CS_Textbook_5.md",
+    "_posts/2024-07-01-CS_Textbook_7.md",
+    "_posts/2024-07-01-CS_Textbook_9.md",
+    "_site/language/CS_Textbook_9/index.html",
+    "_site/language/CS_Textbook_9",
+    "_site/language/CS_Textbook_8-1/index.html",
+    "_site/language/CS_Textbook_8-1",
+    "_posts/2024-07-01-CS_Textbook_4.md",
     "_posts/2024-07-01-CS_Textbook_6.md",
     "_posts/2024-07-01-CS_Textbook_3.md",
     "_posts/2024-07-01-CS_Textbook_2.md",
@@ -184,11 +189,7 @@
     "Pasted image 20240826151630.png",
     "_site/language/CS_Textbook_7/index.html",
     "_site/language/CS_Textbook_7",
-    "_site/language/CS_Textbook_6-1/index.html",
-    "_site/language/CS_Textbook_6-1",
     "_posts/2024-06-29-CS_Textbook_1.md",
-    "_site/language/CS_Textbook_6/index.html",
-    "_site/language/CS_Textbook_6",
     "_site/제목 없는 다이어그램.drawio.png",
     "_site/제목 없는 다이어그램.drawio 4.png",
     "_site/제목 없는 다이어그램.drawio 3.png",
