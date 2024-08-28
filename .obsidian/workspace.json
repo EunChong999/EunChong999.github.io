@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-28-CS_Textbook_A9.md",
+                "file": "_posts/2024-08-28-CS_Textbook_B0.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-28-CS_Textbook_A9.md",
+                "file": "_posts/2024-08-28-CS_Textbook_B0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-28-CS_Textbook_A9.md"
+                "file": "_posts/2024-08-28-CS_Textbook_B0.md"
               }
             }
           },
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-28-CS_Textbook_A9.md",
+                "file": "_posts/2024-08-28-CS_Textbook_B0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,8 +156,15 @@
   },
   "active": "b1bcc01e118e380a",
   "lastOpenFiles": [
-    "_posts/2024-08-28-CS_Textbook_A8.md",
+    "_site/language/CS_Textbook_B0/index.html",
+    "_site/language/CS_Textbook_B0",
+    "_site/language/CS_Textbook_A9-1/index.html",
+    "_site/language/CS_Textbook_A9-1",
+    "_site/page3/index.html",
+    "_site/page3",
     "_posts/2024-08-28-CS_Textbook_A9.md",
+    "_posts/2024-08-28-CS_Textbook_B0.md",
+    "_posts/2024-08-28-CS_Textbook_A8.md",
     "_posts/2024-07-01-CS_Textbook_A0.md",
     "_posts/2024-07-07-CS_Textbook_A3.md",
     "_site/language/CS_Textbook_A9/index.html",
@@ -165,13 +172,8 @@
     "_site/language/CS_Textbook_A8/index.html",
     "_site/language/CS_Textbook_A8",
     "_site/language/CS_Textbook_A7/index.html",
-    "_site/language/CS_Textbook_A7",
     "_posts/2024-08-28-CS_Textbook_A7.md",
-    "_site/language/CS_Textbook_A6/index.html",
-    "_site/language/CS_Textbook_A6",
     "_posts/2024-08-27-CS_Textbook_A6.md",
-    "_site/language/CS_Textbook_A/index.html",
-    "_site/language/CS_Textbook_A",
     "_posts/2024-08-20-CS_Textbook_A5.md",
     "_posts/2024-08-19-CS_Textbook_A4.md",
     "_posts/2024-07-03-CS_Textbook_A2.md",
@@ -199,7 +201,6 @@
     "_pages/year_archive.md",
     "_site/_pages/search.md",
     "_pages/search.md",
-    "_pages/404.md",
-    "_site/_pages/404.md"
+    "_pages/404.md"
   ]
 }
