@@ -195,7 +195,8 @@ class UnsignedInteger
 ```
 
 - Note
-	>부호 있는 정수형 데이터 형식인 sbyte, short, int, long과 부호 없는 데터 형식인 byte, ushort, uint, ulong의 최솟값과 최댓값은 다음과 같이 MinValue와 MaxValue 속성으로 출력할 수 있다.
+
+>부호 있는 정수형 데이터 형식인 sbyte, short, int, long과 부호 없는 데터 형식인 byte, ushort, uint, ulong의 최솟값과 최댓값은 다음과 같이 MinValue와 MaxValue 속성으로 출력할 수 있다.
 
 ```cs
 > Console.WriteLine("[32비트] int 최솟값 : {0}", int.MinValue); // 부호 있는 정수형
