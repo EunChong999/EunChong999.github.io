@@ -467,6 +467,7 @@ class BinaryString
 ```
 
 - Note 
+
 >십진수를 이진수로 또는 이진수를 십진수로 변환시키는 것을 진법 변환이라고 하는데 C#에서는  Convert 클래스의 ToString()과 ToInt32() 메서드를 사용하여 변환이 가능하다. 
 
 - RadixTransformation.cs
@@ -574,6 +575,7 @@ C#
 ```
 
 - Note
+
 >자바스크립트 같은 다른 프로그래밍 언어를 알고 있다면 var 키워드가 모든 값을 담고 있어 C#도 동일하다고 오해하곤 한다. 하지만 C#의 var 키워드는 프로그램 소스 코드 작성의 편의성을 위해 만든 키워드이지 모든 값을 다 담을 수 있는 키워드가 아니다. 자바스크립트의 var에 해당하는 C# 키워드는 dynamic이다. 
 
 ## 4.1 Console.ReadLine() 메서드의 입력 값을 var로 선언한 변수로 받기
@@ -607,6 +609,7 @@ Hello : System.String, C : System.Char
 >Console.ReadLine() 메서드의 반환값은 string 형식인 것을 알기에 s 변수는 자동으로 string 형식의 변수가 된다. 마찬가지로 Convert.ToChar() 메서드의 반환값은 char 형식이기에 c 변수의 형식은 자동으로 char 형식이 된다. 
 
 - Note 
+
 >다음 코드는 Console.ReadKey() 메서드를 사용하여 키보드에서 입력한 키 값을 알아낸다. ConsoleKeyInfo 구조체와 ConsoleKey 열거형을 사용했다. 
 
 - KeyboardInput
@@ -661,6 +664,7 @@ Q를 입력하셨군요...
 >숫자 데이터 형식은 0을, char는 \\0을, string은 null을 기본값으로 가진다.
 
 - Note
+
 >특정 형식의 기본값을 변환해 주는 키워드도 default이다. defatult(T) 형태로도 사용하며, T 자리에는 특정 형식이 들어오는데 이를 기본 식(default expression)이라고 한다. 이것을 사용하면 int, bool, string 등 기본값을 알 수 있다. 
 
 ```cs
@@ -682,6 +686,7 @@ null
 >실행 결과처럼 특정 형식이 가지는 기본값은 default 키워드 또는 default(T) 형태로 알 수 있다. 
 
 - Note
+
 >C#에서는 튜플 리터럴(tuple literal)을 제공한다. 
 
 >var 키워드로 변수를 선언한 후 괄호에 콤마를 구분해서 숫자 데이터를 넣으면 자동으로 t.Item1, t.Item2 형태로 값이 저장되어 그 값을 사용할 수 있다.
