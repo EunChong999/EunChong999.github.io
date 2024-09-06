@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-30-CS_Textbook_B1.md",
+                "file": "_posts/2024-08-30-CS_Textbook_B2.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-30-CS_Textbook_B1.md",
+                "file": "_posts/2024-08-30-CS_Textbook_B2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-30-CS_Textbook_B1.md"
+                "file": "_posts/2024-08-30-CS_Textbook_B2.md"
               }
             }
           },
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-30-CS_Textbook_B1.md",
+                "file": "_posts/2024-08-30-CS_Textbook_B2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,6 +156,16 @@
   },
   "active": "b1bcc01e118e380a",
   "lastOpenFiles": [
+    "_posts/2024-08-30-CS_Textbook_B1.md",
+    "_posts/2024-08-28-CS_Textbook_A9.md",
+    "_posts/2024-08-29-CS_Textbook_B0.md",
+    "_posts/2024-08-30-CS_Textbook_B2.md",
+    "_site/language/CS_Textbook_B2/index.html",
+    "_site/language/CS_Textbook_B2",
+    "_site/language/CS_Textbook_B1-1/index.html",
+    "_site/language/CS_Textbook_B1-1",
+    "_site/language/CS_Textbook_B1/index.html",
+    "_site/language/CS_Textbook_B1",
     "_posts/2024-07-01-CS_Textbook_A0.md",
     "_posts/2024-07-01-CS_Textbook_A1.md",
     "_posts/2024-07-03-CS_Textbook_A2.md",
@@ -165,9 +175,6 @@
     "_posts/2024-08-27-CS_Textbook_A6.md",
     "_posts/2024-08-28-CS_Textbook_A7.md",
     "_posts/2024-08-28-CS_Textbook_A8.md",
-    "_posts/2024-08-28-CS_Textbook_A9.md",
-    "_posts/2024-08-29-CS_Textbook_B0.md",
-    "_posts/2024-08-30-CS_Textbook_B1.md",
     "제목 없는 다이어그램.drawio 2.png",
     "제목 없는 다이어그램.drawio (1) 2.png",
     "제목 없는 다이어그램.drawio (1).png",
@@ -183,12 +190,6 @@
     "_site/language/CS_Textbook_A8",
     "_site/language/CS_Textbook_A7/index.html",
     "_site/language/CS_Textbook_A7",
-    "_site/language/CS_Textbook_A6/index.html",
-    "_site/language/CS_Textbook_A6",
-    "_site/page3/index.html",
-    "_site/page3",
-    "_site/language/CS_Textbook_B0/index.html",
-    "_site/language/CS_Textbook_B0",
     "_posts/2024-07-01-CS_Textbook_8.md",
     "_posts/2024-07-01-CS_Textbook_7.md",
     "_posts/2024-07-01-CS_Textbook_4.md",
@@ -199,7 +200,6 @@
     "_posts/2024-06-29-CS_Textbook_1.md",
     "_posts/2024-06-19-first.md",
     "_pages/year_archive.md",
-    "_site/_pages/search.md",
-    "_pages/search.md"
+    "_site/_pages/search.md"
   ]
 }
