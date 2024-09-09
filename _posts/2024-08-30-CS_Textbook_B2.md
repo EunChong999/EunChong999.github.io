@@ -174,7 +174,7 @@ class SwitchWeather
 {
     static void Main()
     {
-        Console.WriteLine("오늘 날씨는 어떤가요? (맑음, 흐림, 비, 눈, ...");
+        Console.WriteLine("오늘 날씨는 어떤가요? (맑음, 흐림, 비, 눈, ...)");
         string weather = Console.ReadLine();
 
         switch (weather)
@@ -199,7 +199,7 @@ class SwitchWeather
 - 실행 결과
 
 ```cs
-오늘 날씨는 어떤가요? (맑음, 흐림, 비, 눈, ...
+오늘 날씨는 어떤가요? (맑음, 흐림, 비, 눈, ...)
 맑음
 오늘 날씨는 맑군요.
 ```
