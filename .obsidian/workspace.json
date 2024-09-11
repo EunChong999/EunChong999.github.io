@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-30-CS_Textbook_B5.md",
+                "file": "_posts/2024-08-30-CS_Textbook_B8.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-30-CS_Textbook_B5.md",
+                "file": "_posts/2024-08-30-CS_Textbook_B8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-30-CS_Textbook_B5.md"
+                "file": "_posts/2024-08-30-CS_Textbook_B8.md"
               }
             }
           },
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-30-CS_Textbook_B5.md",
+                "file": "_posts/2024-08-30-CS_Textbook_B8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,22 +156,22 @@
   },
   "active": "b1bcc01e118e380a",
   "lastOpenFiles": [
+    "_posts/2024-08-30-CS_Textbook_B3.md",
+    "_posts/2024-08-30-CS_Textbook_B4.md",
+    "_posts/2024-08-30-CS_Textbook_B5.md",
+    "_posts/2024-08-30-CS_Textbook_B8.md",
     "_site/language/CS_Textbook_B5/index.html",
     "_site/language/CS_Textbook_B5",
     "_site/language/CS_Textbook_B4-1/index.html",
     "_site/language/CS_Textbook_B4-1",
     "_site/page4/index.html",
     "_site/page4",
-    "_posts/2024-08-30-CS_Textbook_B4.md",
-    "_posts/2024-08-30-CS_Textbook_B5.md",
-    "_posts/2024-08-30-CS_Textbook_B3.md",
     "_site/language/CS_Textbook_B4/index.html",
     "_site/language/CS_Textbook_B4",
     "_posts/2024-08-30-CS_Textbook_B2.md",
     "제목 없는 다이어그램.drawio 4.png",
     "_site/language/CS_Textbook_B3/index.html",
     "_site/language/CS_Textbook_B3",
-    "_site/language/CS_Textbook_B2-1/index.html",
     "_posts/2024-08-30-CS_Textbook_B1.md",
     "_posts/2024-08-28-CS_Textbook_A9.md",
     "_posts/2024-08-29-CS_Textbook_B0.md",
