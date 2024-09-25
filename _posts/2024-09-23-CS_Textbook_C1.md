@@ -252,14 +252,14 @@ str 변수 값은 null 또는 빈 값(Empty)입니다.
 
 # 2 문자열 처리 관련 주요 API 
 
-1. 문자열 변수는 초기화하지 않으면 기본적으로 null 값으로 초기화한다. 일반적으로 빈 문자열을 의미하는 "" 또는 String.Empty 속성으로 초기화한다.
+1 . 문자열 변수는 초기화하지 않으면 기본적으로 null 값으로 초기화한다. 일반적으로 빈 문자열을 의미하는 "" 또는 String.Empty 속성으로 초기화한다.
 
 ```cs
 > string str = "";
 > str = String.Empty;
 ```
 
-2. 문자열 변수의 Length 속성을 사용하여 문자열 길이를 구할 수 있다. 한글 및 영문 모두 한 글자로 표현한다.
+2 . 문자열 변수의 Length 속성을 사용하여 문자열 길이를 구할 수 있다. 한글 및 영문 모두 한 글자로 표현한다.
 
 ```cs
 > string str = " Abc Def Fed Cba ";
@@ -267,7 +267,7 @@ str 변수 값은 null 또는 빈 값(Empty)입니다.
 17
 ```
 
-3. 문자열은 문자 배열을 의미한다. Str[5] 형태로 다섯 번째 인덱스의 문자 하나를 구할 수 있다.
+3 . 문자열은 문자 배열을 의미한다. Str[5] 형태로 다섯 번째 인덱스의 문자 하나를 구할 수 있다.
 
 ```cs
 > string str = " Abc Def Fed Cba ";
@@ -275,7 +275,7 @@ str 변수 값은 null 또는 빈 값(Empty)입니다.
 'D'
 ```
 
-4. ToUpper() 메서드로는 대문자로 변경하고, ToLower() 메서드로는 소문자로 변경한다.
+4 . ToUpper() 메서드로는 대문자로 변경하고, ToLower() 메서드로는 소문자로 변경한다.
 
 ```cs
 > string str = " Abc Def Fed Cba ";
@@ -285,7 +285,7 @@ str 변수 값은 null 또는 빈 값(Empty)입니다.
 " abc def fed cba "
 ```
 
-5. Trim() 메서드를 사용하면 문자열의 시작과 끝부분에서 하나 이상의 공백을 제거할 수 있다. 시작 공백 또는 마지막 공백을 제거할 때는 TrimStart()와 TrimEnd() 메서드를 사용한다.
+5 . Trim() 메서드를 사용하면 문자열의 시작과 끝부분에서 하나 이상의 공백을 제거할 수 있다. 시작 공백 또는 마지막 공백을 제거할 때는 TrimStart()와 TrimEnd() 메서드를 사용한다.
 
 ```cs
 > string str = " Abc Def Fed Cba ";
@@ -297,7 +297,7 @@ str 변수 값은 null 또는 빈 값(Empty)입니다.
 " Abc Def Fed Cba"
 ```
 
-6. Replace() 메서드는 매개변수 2개 중 첫 번째 매개변수를 문자열에서 검색한 후 있으면 두 번째 매개변수로 변경한 값을 반환한다. 
+6 . Replace() 메서드는 매개변수 2개 중 첫 번째 매개변수를 문자열에서 검색한 후 있으면 두 번째 매개변수로 변경한 값을 반환한다. 
 
 ```cs
 > string str = " Abc Def Fed Cba ";
@@ -305,7 +305,7 @@ str 변수 값은 null 또는 빈 값(Empty)입니다.
 " Abc 디이에프 Fed Cba "
 ```
 
-7. 모든 문자열 처리 관련 메서드는 하나 이상을 연결해서 호출할 수 있다. 이를 메서드 체이닝이라고 한다.
+7 . 모든 문자열 처리 관련 메서드는 하나 이상을 연결해서 호출할 수 있다. 이를 메서드 체이닝이라고 한다.
 
 ```cs
 > string str = " Abc Def Fed Cba ";
@@ -313,7 +313,7 @@ str 변수 값은 null 또는 빈 값(Empty)입니다.
 " abc 디이에프 xyz cba "
 ```
 
-8. IndexOf() 메서드는 문자열 앞부분부터 검색을 시작하여 지정된 문자의 위치(인덱스)를 알려준다. LastIndexOf() 메서드는 문자열 뒤에서부터 검색을 시작하여 지정된 문자의 위치(인덱스)를 구할 때 사용한다. 즉, 처음 요소의 인덱스는 IndexOf() 메서드를 사용하고, 마지막 요소의 인덱스는 LastIndexOf() 메서드를 사용하여 구한다.
+8 . IndexOf() 메서드는 문자열 앞부분부터 검색을 시작하여 지정된 문자의 위치(인덱스)를 알려준다. LastIndexOf() 메서드는 문자열 뒤에서부터 검색을 시작하여 지정된 문자의 위치(인덱스)를 구할 때 사용한다. 즉, 처음 요소의 인덱스는 IndexOf() 메서드를 사용하고, 마지막 요소의 인덱스는 LastIndexOf() 메서드를 사용하여 구한다.
 
 ```cs
 > string str = " Abc Def Fed Cba ";
@@ -323,7 +323,7 @@ str 변수 값은 null 또는 빈 값(Empty)입니다.
 10
 ```
 
-9. Substring() 메서드는 Substring(5, 3) 형태로 다섯 번째 인덱스부터 세 글자를 읽어 올 수 있고, Substring(5) 형태로 다섯 번째 인덱스 이후로 나오는 모든 문자열을 반환할 수 있다. 
+9 . Substring() 메서드는 Substring(5, 3) 형태로 다섯 번째 인덱스부터 세 글자를 읽어 올 수 있고, Substring(5) 형태로 다섯 번째 인덱스 이후로 나오는 모든 문자열을 반환할 수 있다. 
 
 ```cs
 > string str = " Abc Def Fed Cba ";
@@ -333,7 +333,7 @@ str 변수 값은 null 또는 빈 값(Empty)입니다.
 "Def Fed Cba "
 ```
 
-10. Remove() 메서드는 매개변수로 지정한 위치의 모든 문자 또는 문자열을 제거하여 출력할 수도 있다.
+10 . Remove() 메서드는 매개변수로 지정한 위치의 모든 문자 또는 문자열을 제거하여 출력할 수도 있다.
 
 ```cs
 > string str = " Abc Def Fed Cba ";
@@ -341,7 +341,7 @@ str 변수 값은 null 또는 빈 값(Empty)입니다.
 " Abc  Fed Cba "
 ```
 
-11. 문자열 비교는 == 연산자, String.Compare() 메서드, String.Equals() 메서드 등을 사용하여 값을 비교할 수 있다.
+11 . 문자열 비교는 == 연산자, String.Compare() 메서드, String.Equals() 메서드 등을 사용하여 값을 비교할 수 있다.
 
 ```cs
 > string str = " Abc Def Fed Cba ";
@@ -357,7 +357,7 @@ true
 false
 ```
 
-12. StartsWith() 메서드로 특정 문자열로 시작하는지 여부를 알 수 있고, EndsWith() 메서드로 특정 문자열로 끝나는지 여부를 알 수 있다.
+12 . StartsWith() 메서드로 특정 문자열로 시작하는지 여부를 알 수 있고, EndsWith() 메서드로 특정 문자열로 끝나는지 여부를 알 수 있다.
 
 ```cs
 > string str = " Abc Def Fed Cba ";
@@ -367,7 +367,7 @@ true
 true
 ```
 
-13. 문자열을 연결할 때는 더하기 연산자, String.Concat() 메서드, String.Format() 메서드 및 문자열 보간법 등을 사용한다.
+13 . 문자열을 연결할 때는 더하기 연산자, String.Concat() 메서드, String.Format() 메서드 및 문자열 보간법 등을 사용한다.
 
 ```cs
 > string str = " Abc Def Fed Cba ";
@@ -383,7 +383,7 @@ true
 "안녕 하세요."
 ```
 
-14. String.Format() 메서드 및 문자열 보간법은 문자열에 지정된 숫자 값을 바탕으로 통화량(C) 또는 세 자리마다 콤마를 찍는 문자열을 출력하도록 할 수 있다.
+14 . String.Format() 메서드 및 문자열 보간법은 문자열에 지정된 숫자 값을 바탕으로 통화량(C) 또는 세 자리마다 콤마를 찍는 문자열을 출력하도록 할 수 있다.
 
 ```cs
 > string str = " Abc Def Fed Cba ";
@@ -393,7 +393,7 @@ true
 "1,000"
 ```
 
-15. Split() 메서드는 지정한 문자를 구분자로 하여 문자열에서 또 다른 문자열 배열을 뽑아낸다. str 변수는 공백을 기준으로 구분되어 있다. Split(' ') 형태로 공백 하나를 구분자로 해서 문자열 배열로 구분하여 strArray 배열을 채우면 Abc Def Fed Cba 순서로 배열 요소가 생성된다.
+15 . Split() 메서드는 지정한 문자를 구분자로 하여 문자열에서 또 다른 문자열 배열을 뽑아낸다. str 변수는 공백을 기준으로 구분되어 있다. Split(' ') 형태로 공백 하나를 구분자로 해서 문자열 배열로 구분하여 strArray 배열을 채우면 Abc Def Fed Cba 순서로 배열 요소가 생성된다.
 
 ```cs
 > string str = " Abc Def Fed Cba ";
@@ -408,7 +408,7 @@ Fed
 Cba
 ```
 
-16. 기타 Insert() 메서드로 문자열을 삽입하거나 Remove() 메서드로 문자열을 제거할 수 있다.
+16 . 기타 Insert() 메서드로 문자열을 삽입하거나 Remove() 메서드로 문자열을 제거할 수 있다.
 
 ```cs
 > string original = "Hello";
@@ -421,7 +421,7 @@ Cba
 "Hello"
 ```
 
-17. 문자열에 PadLeft()와 PadRight()를 사용하여 특정 문자를 왼쪽 또는 오른쪽에 채울 수 있다.
+17 . 문자열에 PadLeft()와 PadRight()를 사용하여 특정 문자를 왼쪽 또는 오른쪽에 채울 수 있다.
 
 ```cs
 > string number = "1234";
