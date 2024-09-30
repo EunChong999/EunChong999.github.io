@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-30-CS_Textbook_B6.md",
+                "file": "_posts/2024-09-23-CS_Textbook_C5.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-30-CS_Textbook_B6.md",
+                "file": "_posts/2024-09-23-CS_Textbook_C5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-30-CS_Textbook_B6.md"
+                "file": "_posts/2024-09-23-CS_Textbook_C5.md"
               }
             }
           },
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-30-CS_Textbook_B6.md",
+                "file": "_posts/2024-09-23-CS_Textbook_C5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,8 +156,10 @@
   },
   "active": "b1bcc01e118e380a",
   "lastOpenFiles": [
-    "_posts/2024-08-30-CS_Textbook_B7.md",
+    "_posts/2024-09-23-CS_Textbook_C4.md",
+    "_posts/2024-09-23-CS_Textbook_C5.md",
     "_posts/2024-08-30-CS_Textbook_B6.md",
+    "_posts/2024-08-30-CS_Textbook_B7.md",
     "_site/language/CS_Textbook_C4/index.html",
     "_site/language/CS_Textbook_C4",
     "_site/language/CS_Textbook_C3/index.html",
@@ -177,7 +179,6 @@
     "_posts/2024-08-28-CS_Textbook_A7.md",
     "_posts/2024-08-30-CS_Textbook_B9.md",
     "_posts/2024-08-30-CS_Textbook_C0.md",
-    "_posts/2024-09-23-CS_Textbook_C4.md",
     "_posts/2024-09-23-CS_Textbook_C2.md",
     "_posts/2024-09-23-CS_Textbook_C3.md",
     "_posts/2024-09-23-CS_Textbook_C1.md",
