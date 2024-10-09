@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-23-CS_Textbook_C5.md",
+                "file": "_posts/2024-09-10-CS_Textbook_B6.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "03bcc4eba6886334",
@@ -93,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-09-23-CS_Textbook_C5.md",
+                "file": "_posts/2024-09-10-CS_Textbook_B6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-23-CS_Textbook_C5.md"
+                "file": "_posts/2024-09-10-CS_Textbook_B6.md"
               }
             }
           },
@@ -126,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-23-CS_Textbook_C5.md",
+                "file": "_posts/2024-09-10-CS_Textbook_B6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,43 +157,42 @@
   },
   "active": "b1bcc01e118e380a",
   "lastOpenFiles": [
-    "_posts/2024-09-23-CS_Textbook_C4.md",
-    "_posts/2024-09-23-CS_Textbook_C5.md",
-    "_posts/2024-08-30-CS_Textbook_B6.md",
-    "_posts/2024-08-30-CS_Textbook_B7.md",
-    "_site/language/CS_Textbook_C4/index.html",
-    "_site/language/CS_Textbook_C4",
-    "_site/language/CS_Textbook_C3/index.html",
-    "_site/language/CS_Textbook_C3",
-    "_site/language/CS_Textbook_C2/index.html",
-    "_site/language/CS_Textbook_C2",
+    "_posts/2024-09-13-CS_Textbook_C0.md",
+    "_posts/2024-09-13-CS_Textbook_C1.md",
+    "_posts/2024-09-23-CS_Textbook_C2.md",
     "_site/language/CS_Textbook_C1/index.html",
     "_site/language/CS_Textbook_C1",
-    "_site/language/CS_Textbook_C0/index.html",
-    "_site/language/CS_Textbook_C0",
-    "_posts/2024-08-30-CS_Textbook_B5.md",
-    "_posts/2024-08-30-CS_Textbook_B8.md",
-    "_posts/2024-08-30-CS_Textbook_B4.md",
-    "_posts/2024-08-30-CS_Textbook_B3.md",
-    "_posts/2024-08-30-CS_Textbook_B2.md",
-    "_posts/2024-08-30-CS_Textbook_B1.md",
+    "_site/language/CS_Textbook_C0-1/index.html",
+    "_site/language/CS_Textbook_C0-1",
+    "_site/language/CS_Textbook_C2/index.html",
+    "_site/language/CS_Textbook_C2",
+    "_posts/2024-09-10-CS_Textbook_B7.md",
+    "_posts/2024-09-13-CS_Textbook_C2.md",
+    "_posts/2024-09-30-CS_Textbook_C6.md",
+    "_posts/2024-09-26-CS_Textbook_C5.md",
+    "_posts/2024-09-25-CS_Textbook_C4.md",
+    "_posts/2024-09-24-CS_Textbook_C3.md",
+    "_posts/2024-09-12-CS_Textbook_B9.md",
+    "_posts/2024-09-10-CS_Textbook_B6.md",
+    "_posts/2024-09-06-CS_Textbook_B2.md",
+    "_posts/2024-09-06-CS_Textbook_B1.md",
+    "_site/language/CS_Textbook_C3/index.html",
+    "_site/language/CS_Textbook_C3",
+    "_site/language/CS_Textbook_C4/index.html",
+    "_site/language/CS_Textbook_C4",
+    "_posts/2024-09-11-CS_Textbook_B8.md",
+    "_posts/2024-09-10-CS_Textbook_B5.md",
+    "_posts/2024-09-09-CS_Textbook_B4.md",
+    "_posts/2024-09-07-CS_Textbook_B3.md",
+    "_posts/2024-08-29-CS_Textbook_B0.md",
+    "_posts/2024-07-01-CS_Textbook_A0.md",
     "_posts/2024-08-28-CS_Textbook_A7.md",
-    "_posts/2024-08-30-CS_Textbook_B9.md",
-    "_posts/2024-08-30-CS_Textbook_C0.md",
-    "_posts/2024-09-23-CS_Textbook_C2.md",
-    "_posts/2024-09-23-CS_Textbook_C3.md",
-    "_posts/2024-09-23-CS_Textbook_C1.md",
     "_posts/2024-07-03-CS_Textbook_A2.md",
     "_posts/2024-07-01-CS_Textbook_A1.md",
-    "_posts/2024-07-01-CS_Textbook_A0.md",
-    "_posts/2024-08-29-CS_Textbook_B0.md",
     "_posts/2024-08-27-CS_Textbook_A6.md",
     "_posts/2024-08-28-CS_Textbook_A8.md",
     "_posts/2024-08-28-CS_Textbook_A9.md",
     "제목 없는 다이어그램.drawio 4.png",
-    "_posts/2024-07-07-CS_Textbook_A3.md",
-    "_posts/2024-08-19-CS_Textbook_A4.md",
-    "_posts/2024-08-20-CS_Textbook_A5.md",
     "제목 없는 다이어그램.drawio 2.png",
     "제목 없는 다이어그램.drawio (1) 2.png",
     "제목 없는 다이어그램.drawio (1).png",
